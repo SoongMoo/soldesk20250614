@@ -1,0 +1,29 @@
+1. LLM (Large Language Model) - 대형 언어 모델
+대규모 데이터를 학습하여 자연어 이해 및 생성이 가능한 AI 모델 
+종류:
+GPT 계열: GPT-3, GPT-3.5, GPT-4 (OpenAI)
+LLaMA 계열: LLaMA 2, LLaMA 3 (Meta)
+Claude 계열: Claude 1, Claude 2, Claude 3 (Anthropic)
+Gemini 계열: Gemini 1, Gemini 1.5 (Google DeepMind)
+Mistral 계열: Mistral 7B, Mixtral 8x7B (Mistral AI)
+Falcon: Falcon 40B, Falcon 180B (TII)
+Command R 계열: Command R+ (Cohere)
+
+2. SLM (Small Language Model) - 소형 언어 모델
+LLM보다 경량화된 모델로, 상대적으로 적은 파라미터를 가짐
+종류:
+Phi 계열: Phi-2 (Microsoft)
+Gemma 계열: Gemma 2B, Gemma 7B (Google DeepMind)
+Mistral 7B: Mistral AI의 소형 모델
+TinyLlama: 1.1B 파라미터 모델
+LLaMA-2 7B: Meta의 경량 모델
+
+3. vLLM (Very Large Language Model / Vectorized LLM)
+주로 vLLM 라이브러리를 의미하며, LLM의 고속 추론을 위한 최적화 프레임워크
+파이토치(PyTorch) 기반으로 모델 실행 속도를 높이는 데 사용됨
+
+vLLM을 활용하는 모델들:
+GPT-3.5 / GPT-4
+LLaMA 2 / LLaMA 3
+Falcon 40B
+Mixtral 8x7B
